@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="@string/home" android:icon="@drawable/ic_circle"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_circle"
+        android:enabled="false"
+        android:visible="false"/>
+    <item android:id="@+id/nav_saved_lists" android:title="@string/saved_lists" android:icon="@drawable/ic_circle"/>
+    <item android:id="@+id/nav_categories" android:title="@string/categories" android:icon="@drawable/ic_circle"/>
+</menu>
